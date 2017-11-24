@@ -1,10 +1,11 @@
 body {
     background: #2E2E2E;
+    font-family: arial, sans-serif;
+    color: #ffffff;
 }
 
 .navigation a {
     color: #0098AA;
-    font-family: arial, sans-serif;
     font-size: 44px;
     text-decoration: none;
 }
@@ -27,6 +28,17 @@ img {
     height: auto;
 }
 
+.workshop-image {
+    position: relative;
+}
+
+.image-hover {
+    background: #FA7846;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
 .logo-wrapper {
     text-align: center;
 }
@@ -38,4 +50,32 @@ img {
 .main-wrapper {
     margin: 0 auto;
     max-width: 1680px;
+}
+
+h1 {
+    color: #0098AA;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.workshop-hover-text span{
+    font-size: 18px;
+}
+
+.button-info {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+
+    background: #FA7846;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.button-info:hover {
+    background: #0098AA;
 }
