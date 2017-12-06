@@ -99,3 +99,25 @@ h3 {
 .button-info:hover {
     background: #0098AA;
 }
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background: #0098AA;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    max-width: 1680px;
+    overflow: hidden;
+}
+
+footer .left {
+    float: left;
+}
+
+footer .right {
+    float: right;
+}
