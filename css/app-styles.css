@@ -23,6 +23,20 @@ body {
     text-align: center;
 }
 
+.navigation.seminare a {
+    font-size: 16px;
+}
+
+.navigation.seminare a span {
+    font-size: 40px;
+    display: inline-block;
+}
+
+.navigation.seminare div {
+    display: inline-block;
+    padding: 5px 15px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -32,11 +46,17 @@ img {
     position: relative;
 }
 
+.workshop-image img {
+    display: block;
+}
+
 .image-hover {
-    background: #FA7846;
+    background: rgba(250,120,70, 0.5);
     position: absolute;
     left: 0;
     right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .logo-wrapper {
