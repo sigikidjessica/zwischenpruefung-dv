@@ -24,11 +24,11 @@ body {
 }
 
 .navigation.seminare a {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navigation.seminare a span {
-    font-size: 40px;
+    font-size: 20px;
     display: inline-block;
 }
 
