@@ -8,19 +8,19 @@
 }
 
 body {
-    background: #2E2E2E;
+    background: #ffffff;
     font-family: arial, sans-serif;
     color: #ffffff;
 }
 
 .navigation a {
-    color: #0098AA;
-    font-size: 44px;
+    color: #5c3826;
+    font-size: 40px;
     text-decoration: none;
 }
 
 .navigation a:hover{
-    color: #FA7846;
+    color: #a56a4c;
 }
 
 .navigation li {
@@ -30,8 +30,12 @@ body {
 
 .navigation {
     text-align: center;
-    background-color: #3a3a3a;
+    background-color: #e5be83;
     margin: 20px 0;
+}
+
+.seminare {
+    background: none;
 }
 
 .navigation.seminare a {
@@ -88,8 +92,12 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    font-size: 28px;
+}
+
 h3 {
-    font-size: 24px;
+    font-size: 23px;
 }
 
 .workshop-hover-text span{
@@ -101,7 +109,7 @@ h3 {
     color: #ffffff;
     text-decoration: none;
 
-    background: #FA7846;
+    background: #5c3826;
     display: inline-block;
     padding: 10px 15px;
     border-radius: 22px;
@@ -109,7 +117,7 @@ h3 {
 }
 
 .button-info:hover {
-    background: #0098AA;
+    background: #a56a4c;
 }
 
 /* Footer */
@@ -117,7 +125,7 @@ h3 {
 footer {
     margin-top: 50px;
     padding: 20px 20px;
-    background: #3a3a3a;
+    background: #e5be83;
 }
 
 .footer-wrapper {
@@ -135,12 +143,12 @@ footer .footer-right {
 }
 
 .footer-right a {
-    color: #0098AA;
+    color: #5c3826;
     text-decoration: none;
 }
 
 .footer-right a:hover{
-    color: #FA7846;
+    color: #a56a4c;
 }
 
 /* NEW WORKSHOPS */
@@ -182,7 +190,7 @@ ul {
 }
 
 .content-workshops {
-    background-color: #0098AA;
+    background-color: #c69815;
     overflow: hidden;
     padding: 20px;
 }
@@ -192,4 +200,7 @@ ul {
     display: table;
     clear: both;
 }
+
+/* CLEMENS TOURK - KAFFEEROESTEREI */
+
 
