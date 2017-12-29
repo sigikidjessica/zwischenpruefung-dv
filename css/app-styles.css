@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #2E2E2E;
     font-family: arial, sans-serif;
@@ -21,6 +25,8 @@ body {
 
 .navigation {
     text-align: center;
+    background-color: #3a3a3a;
+    margin: 20px 0;
 }
 
 .navigation.seminare a {
@@ -73,12 +79,12 @@ img {
 }
 
 h1 {
-    color: #0098AA;
+    color: #ffffff;
     font-size: 30px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .workshop-hover-text span{
@@ -93,7 +99,8 @@ h3 {
     background: #FA7846;
     display: inline-block;
     padding: 10px 15px;
-    border-radius: 20px;
+    border-radius: 22px;
+    border: 2px solid #ffffff;
 }
 
 .button-info:hover {
@@ -104,8 +111,8 @@ h3 {
 
 footer {
     margin-top: 50px;
-    padding: 20px 0;
-    background: #0098AA;
+    padding: 20px 20px;
+    background: #3a3a3a;
 }
 
 .footer-wrapper {
@@ -114,10 +121,69 @@ footer {
     overflow: hidden;
 }
 
-footer .left {
+footer .footer-left {
     float: left;
 }
 
-footer .right {
+footer .footer-right {
     float: right;
+}
+
+.footer-right a {
+    color: #0098AA;
+    text-decoration: none;
+}
+
+.footer-right a:hover{
+    color: #FA7846;
+}
+
+/* NEW WORKSHOPS */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.workshops--grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.li-workshops {
+    display: flex;
+    width: 33.333%;
+    padding: 0 10px;
+}
+
+
+.wrapper--workshops {
+    background-color: #0098AA;
+}
+
+.inner-content-workshops {
+    padding: 0 20px 20px;
+}
+
+.cta-workshops {
+    padding: 0 20px 20px;
+}
+
+/* DETAIL-ANSICHT WORKSHOPS */
+
+.workshop-image{
+    float: left;
+}
+
+.content-workshops {
+    background-color: #0098AA;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
