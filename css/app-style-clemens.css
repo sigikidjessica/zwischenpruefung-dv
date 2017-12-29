@@ -14,13 +14,13 @@ body {
 }
 
 .navigation a {
-    color: #5c3826;
+    color: #ffffff;
     font-size: 40px;
     text-decoration: none;
 }
 
 .navigation a:hover{
-    color: #a56a4c;
+    color: #5c3826;
 }
 
 .navigation li {
@@ -30,12 +30,12 @@ body {
 
 .navigation {
     text-align: center;
-    background-color: #e5be83;
+    background-color: #c69815;
     margin: 20px 0;
 }
 
 .seminare {
-    background: none;
+    background-color: #5c3826;
 }
 
 .navigation.seminare a {
@@ -117,7 +117,7 @@ h3 {
 }
 
 .button-info:hover {
-    background: #a56a4c;
+    background: #c69815;
 }
 
 /* Footer */
@@ -125,7 +125,7 @@ h3 {
 footer {
     margin-top: 50px;
     padding: 20px 20px;
-    background: #e5be83;
+    background: #c69815;
 }
 
 .footer-wrapper {
@@ -190,7 +190,7 @@ ul {
 }
 
 .content-workshops {
-    background-color: #c69815;
+    background-color: #5c3826;
     overflow: hidden;
     padding: 20px;
 }
