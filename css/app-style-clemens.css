@@ -4,23 +4,43 @@
 
 ::selection {
     color: #ffffff;
-    background: #fa7846f0;
+    background: #c3c04a;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+h2 {
+    color: #c3c04a;
+    font-size: 28px;
+}
+
+h3 {
+    color: #c3c04a;
+    font-size: 23px;
+}
+
+p {
+    color: #5c3826;
+    font-size: 20px;
 }
 
 body {
     background: #ffffff;
-    font-family: arial, sans-serif;
+    font-family: Calibri, sans-serif;
     color: #ffffff;
 }
 
 .navigation a {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
 }
 
 .navigation a:hover{
-    color: #5c3826;
+    color: #ffffff;
 }
 
 .navigation li {
@@ -30,7 +50,7 @@ body {
 
 .navigation {
     text-align: center;
-    background-color: #c69815;
+    background-color: #c3c04a;
     margin: 20px 0;
 }
 
@@ -65,15 +85,6 @@ img {
     display: block;
 }
 
-.image-hover {
-    background: rgba(250,120,70, 0.5);
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
 .logo-wrapper {
     text-align: center;
 }
@@ -87,21 +98,18 @@ img {
     max-width: 1680px;
 }
 
-h1 {
-    color: #ffffff;
-    font-size: 30px;
-}
-
-h2 {
-    font-size: 28px;
-}
-
-h3 {
-    font-size: 23px;
-}
-
-.workshop-hover-text span{
+.button-nav {
     font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+
+    background: #c3c04a;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.button-nav:hover {
+    background: #ccc94c;
 }
 
 .button-info {
@@ -109,49 +117,40 @@ h3 {
     color: #ffffff;
     text-decoration: none;
 
-    background: #5c3826;
+    background: #c3c04a;
     display: inline-block;
     padding: 10px 15px;
-    border-radius: 22px;
-    border: 2px solid #ffffff;
+
 }
 
 .button-info:hover {
-    background: #c69815;
+    background: #ccc94c;
 }
 
-/* Footer */
 
-footer {
-    margin-top: 50px;
-    padding: 20px 20px;
-    background: #c69815;
+/* CLEMENS TOURK - KAFFEEROESTEREI - KACHELN*/
+
+.content-first-row {
+    display: flex;
 }
 
-.footer-wrapper {
-    margin: 0 auto;
-    max-width: 1680px;
-    overflow: hidden;
+.first-row {
+    padding: 10px;
 }
 
-footer .footer-left {
-    float: left;
+.content-second-row {
+    display: flex;
 }
 
-footer .footer-right {
-    float: right;
+.second-row {
+    padding: 5px 10px;
 }
 
-.footer-right a {
-    color: #5c3826;
-    text-decoration: none;
-}
+/* SEMINARE UEBERSICHT */
 
-.footer-right a:hover{
-    color: #a56a4c;
+.seminare-titel {
+    padding: 10px;
 }
-
-/* NEW WORKSHOPS */
 
 ul {
     list-style: none;
@@ -172,7 +171,7 @@ ul {
 
 
 .wrapper--workshops {
-    background-color: #0098AA;
+    background-color: #5c3826;
 }
 
 .inner-content-workshops {
@@ -183,7 +182,7 @@ ul {
     padding: 0 20px 20px;
 }
 
-/* DETAIL-ANSICHT WORKSHOPS */
+/* SEMINARE DETAIL ANSICHT */
 
 .workshop-image{
     float: left;
@@ -201,6 +200,33 @@ ul {
     clear: both;
 }
 
-/* CLEMENS TOURK - KAFFEEROESTEREI */
+/* FOOTER */
 
+footer {
+    margin-top: 50px;
+    padding: 20px 20px;
+    background: #c3c04a;
+}
 
+.footer-wrapper {
+    margin: 0 auto;
+    max-width: 1680px;
+    overflow: hidden;
+}
+
+footer .footer-left {
+    float: left;
+}
+
+footer .footer-right {
+    float: right;
+}
+
+.footer-right a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-right a:hover{
+    color: #ccc94c;
+}
