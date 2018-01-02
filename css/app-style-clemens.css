@@ -8,13 +8,13 @@
 }
 
 h1 {
-    color: #ffffff;
-    font-size: 30px;
+    color: #c3c04a;
+    font-size: 32px;
 }
 
 h2 {
-    color: #c3c04a;
-    font-size: 28px;
+    color: #5c3826;
+    font-size: 26px;
 }
 
 h3 {
@@ -32,6 +32,8 @@ body {
     font-family: Calibri, sans-serif;
     color: #ffffff;
 }
+
+/* NAV */
 
 .navigation a {
     color: #ffffff;
@@ -56,6 +58,7 @@ body {
 
 .seminare {
     background-color: #5c3826;
+    margin-bottom: 50px;
 }
 
 .navigation.seminare a {
@@ -69,34 +72,26 @@ body {
 
 .navigation.seminare div {
     display: inline-block;
-    padding: 5px 15px;
+    padding: 0 15px;
 }
+
+/* ETC */
 
 img {
     max-width: 100%;
     height: auto;
 }
 
-.workshop-image {
-    position: relative;
-}
-
-.workshop-image img {
-    display: block;
-}
-
 .logo-wrapper {
     text-align: center;
-}
-
-.logo {
-    max-width: 300px;
 }
 
 .main-wrapper {
     margin: 0 auto;
     max-width: 1680px;
 }
+
+/* BUTTONS */
 
 .button-nav {
     font-size: 18px;
@@ -112,23 +107,35 @@ img {
     background: #ccc94c;
 }
 
-.button-info {
+.button-seminar {
     font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+
+    background: #5c3826;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.button-seminar:hover {
+    background: #67412e;
+}
+
+.button-info {
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
 
     background: #c3c04a;
     display: inline-block;
     padding: 10px 15px;
-
 }
 
 .button-info:hover {
     background: #ccc94c;
 }
 
-
-/* CLEMENS TOURK - KAFFEEROESTEREI - KACHELN*/
+/* CLEMENS TOURK - KAFFEEROESTEREI - KACHELN */
 
 .content-first-row {
     display: flex;
@@ -152,6 +159,21 @@ img {
     padding: 10px;
 }
 
+.seminare-info {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.seminare-info-white {
+    font-style: italic;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.seminare-h2-white {
+    color: #ffffff;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -168,7 +190,6 @@ ul {
     width: 33.333%;
     padding: 0 10px;
 }
-
 
 .wrapper--workshops {
     background-color: #5c3826;
@@ -189,7 +210,6 @@ ul {
 }
 
 .content-workshops {
-    background-color: #5c3826;
     overflow: hidden;
     padding: 20px;
 }
@@ -198,6 +218,17 @@ ul {
     content: "";
     display: table;
     clear: both;
+}
+
+.price-info {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+
+    background: #5c3826;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0;
 }
 
 /* FOOTER */
