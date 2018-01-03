@@ -47,7 +47,6 @@ body {
 
 .navigation li {
     display: inline-block;
-    padding: 15px
 }
 
 .navigation {
@@ -100,7 +99,7 @@ img {
 
     background: #c3c04a;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 15px 15px 17px;
 }
 
 .button-nav:hover {
@@ -141,6 +140,10 @@ img {
     display: flex;
 }
 
+.content-first-row img {
+    display: block;
+}
+
 .first-row {
     padding: 10px;
 }
@@ -150,7 +153,11 @@ img {
 }
 
 .second-row {
-    padding: 5px 10px;
+    padding: 10px;
+}
+
+.second-row-width {
+    width: 1130px;
 }
 
 /* SEMINARE UEBERSICHT */
@@ -235,7 +242,7 @@ ul {
 
 footer {
     margin-top: 50px;
-    padding: 20px 20px;
+    padding: 0 20px;
     background: #c3c04a;
 }
 
@@ -247,6 +254,7 @@ footer {
 
 footer .footer-left {
     float: left;
+    padding-top: 17px;
 }
 
 footer .footer-right {
